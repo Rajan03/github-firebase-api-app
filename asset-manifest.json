@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github-firebase-api-app/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/github-firebase-api-app/static/js/main.19c0ec08.chunk.js",
+    "main.js.map": "/github-firebase-api-app/static/js/main.19c0ec08.chunk.js.map",
+    "runtime-main.js": "/github-firebase-api-app/static/js/runtime-main.16f70b60.js",
+    "runtime-main.js.map": "/github-firebase-api-app/static/js/runtime-main.16f70b60.js.map",
+    "static/css/2.2b1a39db.chunk.css": "/github-firebase-api-app/static/css/2.2b1a39db.chunk.css",
+    "static/js/2.38caf318.chunk.js": "/github-firebase-api-app/static/js/2.38caf318.chunk.js",
+    "static/js/2.38caf318.chunk.js.map": "/github-firebase-api-app/static/js/2.38caf318.chunk.js.map",
+    "index.html": "/github-firebase-api-app/index.html",
+    "static/css/2.2b1a39db.chunk.css.map": "/github-firebase-api-app/static/css/2.2b1a39db.chunk.css.map",
+    "static/css/main.2ae47eeb.chunk.css.map": "/github-firebase-api-app/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.38caf318.chunk.js.LICENSE.txt": "/github-firebase-api-app/static/js/2.38caf318.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16f70b60.js",
+    "static/css/2.2b1a39db.chunk.css",
+    "static/js/2.38caf318.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.19c0ec08.chunk.js"
+  ]
+}
