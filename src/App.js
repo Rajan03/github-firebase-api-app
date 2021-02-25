@@ -2,7 +2,6 @@ import React, { useState, useEffect, useContext } from "react";
 
 // CSS
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
 
 // React Router
 import { BrowserRouter, Switch, Link, Route } from "react-router-dom";
@@ -23,23 +22,23 @@ import Home from "./pages/Home";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUo";
 import PageNotFound from "./pages/PageNotFound";
-import Header from './layout/Header'
-import Footer from './layout/Footer'
+import Header from "./layout/Header";
+import Footer from "./layout/Footer";
 
 const App = () => {
   const [user, setUser] = useState(null);
   return (
     <BrowserRouter>
       <ToastContainer />
-      <UserContext.Provider value ={{user, setUser}}>
-        <Header/>
+      <UserContext.Provider value={{ user, setUser }}>
+        <Header />
         <Switch>
-          <Route exact path = '/' component = {Home}/>
-          <Route path = '/signin' component = {SignIn}/>
-          <Route path = '/signup' component = {SignUp}/>
-          <Route path = '*' component = {PageNotFound}/>
+          <Route exact path="/" component={Home} />
+          <Route path="/signin" component={SignIn} />
+          <Route path="/signup" component={SignUp} />
+          <Route path="*" component={PageNotFound} />
         </Switch>
-        <Footer/>
+        <Footer />
       </UserContext.Provider>
     </BrowserRouter>
   );
